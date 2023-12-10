@@ -2,7 +2,7 @@
 
 OR
 ```
-<div class="flow">
-content
+<div class="flow" markdown="1">
+- list
 </div>
 ```
