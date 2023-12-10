@@ -3,7 +3,7 @@ name: GHP Deploy
 on:
   push:
   schedule:
-    - cron: '37 5 * * *'
+    - cron: '37 1,5 * * *'
   workflow_dispatch:
 
 permissions:
