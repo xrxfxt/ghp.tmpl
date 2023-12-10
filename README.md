@@ -1,5 +1,8 @@
 {% include gallery.html folder='/img' %}
-<!-- OR -->
+
+OR
+```
 <div class="flow">
 content
 </div>
+```
