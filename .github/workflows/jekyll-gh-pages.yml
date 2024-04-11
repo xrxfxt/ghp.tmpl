@@ -45,7 +45,8 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }},
-          enablement: true      - name: Build with Jekyll
+          enablement: true      
+      - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
